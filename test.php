@@ -157,6 +157,7 @@
       $x = 0;
       while($x < 11){
           if($x == 4){
+            $x++;
             continue;
           }
           echo "$x <br>";
